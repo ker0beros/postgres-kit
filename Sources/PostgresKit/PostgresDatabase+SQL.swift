@@ -1,6 +1,6 @@
 import PostgresNIO
 import Logging
-import SQLKit
+@preconcurrency import SQLKit
 
 extension PostgresDatabase {
     @inlinable
